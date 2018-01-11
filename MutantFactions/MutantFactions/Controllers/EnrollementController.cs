@@ -24,5 +24,7 @@ namespace MutantFactions.Controllers
         {
             return View();
         }
+
+        
     }
 }

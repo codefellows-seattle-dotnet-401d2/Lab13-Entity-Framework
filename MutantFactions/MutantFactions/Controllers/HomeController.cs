@@ -24,5 +24,19 @@ namespace MutantFactions.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public IActionResult Index(Student mutant)
+        {
+            _context.MutantDB.Add(mutant);
+            _context.SaveChanges();
+            return RedirectToAction("Details");
+        }
+
+        public IActionResult Details()
+        {
+            IEnumerable<Student> allMutants = _context.MutantDB;
+            return View(allMutants);
+        }
     }
 }
