@@ -1,5 +1,25 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model MutantFactions.Models.Student
+
+<link href="~/style.css" rel="stylesheet" />
+
+<h2>Welcome fellow Mutants!</h2>
+
+<h4>Please register your profile:</h4>
+
+<div class="form">
+    <form method="post">
+        <label for="RealName">Name</label>
+        <input maxlength="20" name="RealName" /><br />
+
+        <label for="CodeName">Name</label>
+        <input maxlength="20" name="CodeName" /><br />
+
+        <label for="MutantPower">Name</label>
+        <input maxlength="20" name="MutantPower" /><br />
+
+        <label for="MutantFaction">Mutant Faction: </label>
+        <input maxlength="20" name="MutantFactionr" /><br />
+
+        <button type="submit">Submit</button>
+    </form>
+</div>

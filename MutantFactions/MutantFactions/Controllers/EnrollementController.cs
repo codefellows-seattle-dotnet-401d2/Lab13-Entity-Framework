@@ -12,6 +12,13 @@ namespace MutantFactions.Controllers
 {
     public class EnrollementController : Controller
     {
+        private MutantDbContext _context;
+
+        public EnrollementController(MutantDbContext context)
+        {
+            _context = context;
+        }
+        
         // GET: /<controller>/
         public IActionResult Index()
         {

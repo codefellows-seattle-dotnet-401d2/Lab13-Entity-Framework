@@ -12,6 +12,13 @@ namespace MutantFactions.Controllers
 {
     public class HomeController : Controller
     {
+        private MutantDbContext _context;
+
+        public HomeController(MutantDbContext context)
+        {
+            _context = context;
+        }
+        
         // GET: /<controller>/
         public IActionResult Index()
         {
