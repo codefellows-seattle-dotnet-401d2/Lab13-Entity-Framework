@@ -11,7 +11,7 @@ using System;
 namespace EntityFramework.Migrations
 {
     [DbContext(typeof(EnrollmentDbContext))]
-    [Migration("20180111151050_Initial")]
+    [Migration("20180111181500_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,7 +26,7 @@ namespace EntityFramework.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("ClassSelection");
+                    b.Property<string>("ClassSelection");
 
                     b.Property<string>("FirstName");
 

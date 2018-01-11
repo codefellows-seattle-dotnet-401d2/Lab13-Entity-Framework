@@ -25,7 +25,7 @@ namespace EntityFramework.Migrations
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int>("ClassSelection");
+                    b.Property<string>("ClassSelection");
 
                     b.Property<string>("FirstName");
 

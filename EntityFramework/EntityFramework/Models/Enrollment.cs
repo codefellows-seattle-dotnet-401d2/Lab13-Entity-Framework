@@ -15,7 +15,7 @@ namespace EntityFramework.Models
 
         public int PhoneNumber { get; set; }
 
-        public int ClassSelection { get; set; }
+        public string ClassSelection { get; set; }
         
     }
 }
