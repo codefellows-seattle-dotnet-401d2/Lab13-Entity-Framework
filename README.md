@@ -17,7 +17,7 @@ To build this application you need to use Visual Studio and select an MVC projec
 7. Add IAction methods to Get and Post on website
 
 ## Example
-![Website Screenshot](/images/enrollment.png)
+![Website Screenshot](enrollment.png)
 
 
 ## Architecture
