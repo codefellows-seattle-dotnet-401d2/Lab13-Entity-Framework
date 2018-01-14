@@ -12,16 +12,29 @@ namespace MeadHighSchool.Controllers
 {
     public class HomeController : Controller
     {
-        public ViewResult Index() => View(repository.Products);
-        private StudentsDBContext _context;
+        private StudentsDbContext _context;
 
-        public HomeController(StudentsDBContext context)
+        public HomeController(StudentsDbContext context)
         {
             _context = context;
         }
         // GET: /<controller>/
         public IActionResult Index()
         {
+            var connection = _context.Students;
+            Student student = new Student
+            {
+                FirstName = "Dustin",
+                LastName = "Mundy",
+                HomeClass = "Jewelry",
+                Phone = "(509)-844-5000"
+            };
+
+            _context.Students.Add(student);
+            _context.SaveChanges();
+
+            var x = _context.Students.Where(s => s.LastName == "Mundy");
+
             return View();
         }
 
