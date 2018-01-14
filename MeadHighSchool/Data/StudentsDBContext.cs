@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MeadHighSchool.Data
 {
-    public class StudentsDbContext
+    public class StudentsDbContext : DbContext
     {
         public DbSet<Models.Student> Students { get; set; }
 
