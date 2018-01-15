@@ -1,0 +1,23 @@
+﻿@model IEnumerable<EntityFramework.Models.Enrollment>
+
+<h1>Students Enrolled</h1>
+
+<table>
+    <thead>First</thead><b>  </b>
+    <thead>Last</thead><b>  </b>
+    <thead>Phone #</thead><b>  </b>
+    <thead>Class Selection</thead> 
+
+    @foreach (var i in Model)
+    {
+        <tr>
+            <td>@i.ID</td>
+            <td>@i.FirstName</td>
+            <td>@i.LastName</td>
+            <td>@i.PhoneNumber</td>
+            <td>@i.ClassSelection</td>
+            <td><a asp-action="Update" asp-controller="Home" asp-route-id="@i.ID">Update</a></td>
+        </tr>
+
+    }
+</table>

@@ -1,0 +1,7 @@
+C:\Users\nyque\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=EntityFramework
+--content-root=C:\Users\nyque\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework
+--file=C:\Users\nyque\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework\Views\Home\Details.cshtml
+--file=C:\Users\nyque\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework\Views\Home\Index.cshtml
+--file=C:\Users\nyque\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework\_ViewImports.cshtml

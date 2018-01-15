@@ -1,0 +1,37 @@
+﻿body {
+    background-image: url("/Img/hogwarts.jpg");
+    background-size: cover;
+}
+
+div.form {
+    display: block;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 45px;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 15px;
+}
+
+h1, h3, p {
+    display: block;
+    text-align: center;
+    color: #ffff1a;
+}
+
+input {
+    border: 0.5px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    border-radius: 7px;
+}
+
