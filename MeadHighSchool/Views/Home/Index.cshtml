@@ -1,0 +1,23 @@
+﻿@using MeadHighSchool.Models;
+@model IEnumerable<Student>;
+<h1>Mead High School</h1>
+<ul id:"topmenu">
+    <li>Add</li>
+    <li>Edit</li>
+    <li>Remove</li>
+</ul>
+<h3>Student Roster</h3>
+<ul id:"content">
+    @foreach(Student s in Model)
+    {
+        <li>
+            <ul>
+                <li><p>Student ID: @s.Id</p></li>
+                <li><p>Name: @s.LastName, @s.FirstName</p></li>
+                <li><p>Home Class: @s.HomeClass</p></li>
+                <li><p>Phone Number: @s.Phone</p></li>
+                <br />
+            </ul>
+        </li>
+    }
+</ul>
