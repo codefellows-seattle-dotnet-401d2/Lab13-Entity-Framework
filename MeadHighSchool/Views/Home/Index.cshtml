@@ -8,13 +8,16 @@
 </ul>
 <h3>Student Roster</h3>
 <ul id:"content">
-    <li>
-        <ul>
-            <li><p>Student ID: @ </p></li>
-            <li><p>Name: @ </p></li>
-            <li><p>Home Class: @ </p></li>
-            <li><p>Phone Number: @ </p></li>
-            <br />
-        </ul>
-    </li>
+    @foreach(Student s in Model)
+    {
+        <li>
+            <ul>
+                <li><p>Student ID: @s.Id</p></li>
+                <li><p>Name: @s.LastName, @s.FirstName</p></li>
+                <li><p>Home Class: @s.HomeClass</p></li>
+                <li><p>Phone Number: @s.Phone</p></li>
+                <br />
+            </ul>
+        </li>
+    }
 </ul>
