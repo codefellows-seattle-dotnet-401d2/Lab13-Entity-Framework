@@ -1,12 +1,13 @@
-﻿@Model MeadHighSchool.Models.Student;
+﻿@using MeadHighSchool.Models;
+@model List<Student>;
 <link href="~/Style.cs" rel="stylesheet" />
 <h1>Mead High School</h1>
 <ul id:"topmenu">
-    <li><a asp-controller="Enroll" asp-action="ViewAllStudents">Enroll</a></li>
+    <li><a asp-controller="Enrollment" asp-action="Enroll">Enroll</a></li>
 </ul>
 <h3>Student Roster</h3>
 <ul id:"content">
-    @try {
+    @if(Model.Count > 0) {
         foreach(MeadHighSchool.Models.Student s in Model)
         {
             <li>
@@ -15,13 +16,12 @@
                     <li><p>Name: @s.LastName, @s.FirstName</p></li>
                     <li><p>Home Class: @s.HomeClass</p></li>
                     <li><p>Phone Number: @s.Phone</p></li>
-                    <li><p>Edit</p></li>
-                    <br />
+                    @*<li><p>Edit</p></li>*@
                 </ul>
+                <br />
             </li>
         }
-    }
-    catch( NullReferenceException e) {
+    }else{
         <p>No students to display yet!</p>
     }
 </ul>
