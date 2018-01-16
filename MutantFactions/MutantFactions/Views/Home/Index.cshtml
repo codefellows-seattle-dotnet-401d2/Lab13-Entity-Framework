@@ -1,21 +1,19 @@
 ﻿@model MutantFactions.Models.Student
-
 <link href="~/style.css" rel="stylesheet" />
 
-<h2>Welcome fellow Mutants!</h2>
-
+<div class="form">
+<h2>Welcome Fellow Mutants!</h2>
 <h4>Please register your profile:</h4>
 
-<div class="form">
     <form method="post">
-        <label for="RealName">Real Name</label>
+        <label for="RealName">Real Name:</label>
         <input maxlength="20" name="RealName" /><br />
 
-        <label for="CodeName">Alias/Code Name</label>
+        <label for="CodeName">Alias/Code Name:</label>
         <input maxlength="20" name="CodeName" /><br />
 
-        <label for="MutantPower">Mutant Power</label>
-        <input maxlength="20" name="MutantPower" /><br />
+        <label for="MutantPower">Mutant Power:</label>
+        <input maxlength="30" name="MutantPower" /><br />
 
         <label for="MutantFaction">Mutant Faction:</label>
         <select name="MutantFaction">

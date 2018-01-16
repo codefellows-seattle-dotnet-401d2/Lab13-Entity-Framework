@@ -1,24 +1,24 @@
 ﻿@model IEnumerable<MutantFactions.Models.Student>
+<link href="~/style.css" rel="stylesheet" />
 
-    <link href="~/style.css" rel="stylesheet" />
-
-<h2>Mutant Database:</h2>
-
-<table>
-    <tr>
-        <thhead>Name</thhead>
-        <thhead>Alias</thhead>
-        <thhead>Ability</thhead>
-        <thhead>Member of</thhead>
-    </tr>
-    @foreach (var i in Model)
-    {
-        <tr>
-            <td>@i.RealName</td>
-            <td>@i.CodeName</td>
-            <td>@i.MutantPower</td>
-            <td>@i.MutantFaction</td>
+<body>
+    <table>
+        <tr><td id="tname" colspan="4">Mutant Database</td></tr>
+        <tr id="th">
+            <td>Name</td>
+            <td>Alias</td>
+            <td>Ability</td>
+            <td>Member of</td>
         </tr>
+        @foreach (var i in Model)
+        {
+            <tr>
+                <td>@i.RealName</td>
+                <td>@i.CodeName</td>
+                <td>@i.MutantPower</td>
+                <td>@i.MutantFaction</td>
+            </tr>
 
-    }
-</table>
+        }
+    </table>
+</body>
