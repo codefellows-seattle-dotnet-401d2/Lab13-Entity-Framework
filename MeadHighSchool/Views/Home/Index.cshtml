@@ -1,23 +1,27 @@
-﻿@using MeadHighSchool.Models;
-@Model IEnumerable<Student>;
+﻿@Model MeadHighSchool.Models.Student;
+<link href="~/Style.cs" rel="stylesheet" />
 <h1>Mead High School</h1>
 <ul id:"topmenu">
-    <li>Add</li>
-    <li>Edit</li>
-    <li>Remove</li>
+    <li><a asp-controller="Enroll" asp-action="ViewAllStudents">Enroll</a></li>
 </ul>
 <h3>Student Roster</h3>
 <ul id:"content">
-    @foreach(Student s in Model)
-    {
-        <li>
-            <ul>
-                <li><p>Student ID: @s.Id</p></li>
-                <li><p>Name: @s.LastName, @s.FirstName</p></li>
-                <li><p>Home Class: @s.HomeClass</p></li>
-                <li><p>Phone Number: @s.Phone</p></li>
-                <br />
-            </ul>
-        </li>
+    @try {
+        foreach(MeadHighSchool.Models.Student s in Model)
+        {
+            <li>
+                <ul>
+                    <li><p>Student ID: @s.Id</p></li>
+                    <li><p>Name: @s.LastName, @s.FirstName</p></li>
+                    <li><p>Home Class: @s.HomeClass</p></li>
+                    <li><p>Phone Number: @s.Phone</p></li>
+                    <li><p>Edit</p></li>
+                    <br />
+                </ul>
+            </li>
+        }
+    }
+    catch( NullReferenceException e) {
+        <p>No students to display yet!</p>
     }
 </ul>
