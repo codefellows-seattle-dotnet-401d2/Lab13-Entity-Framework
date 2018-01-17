@@ -13,5 +13,14 @@ namespace MeadHighSchool.Models
         public string Phone { get; set; }
         public string HomeClass { get; set; }
 
+        public static implicit operator Student(Task<List<Student>> v)
+        {
+            throw new NotImplementedException();
+        }
+
+        public static implicit operator Student(Task<Student> v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
