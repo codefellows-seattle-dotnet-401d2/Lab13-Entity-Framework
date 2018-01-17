@@ -2,10 +2,10 @@ M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\bin\Debug\n
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\bin\Debug\netcoreapp2.0\MeadHighSchool.runtimeconfig.json
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\bin\Debug\netcoreapp2.0\MeadHighSchool.runtimeconfig.dev.json
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\bin\Debug\netcoreapp2.0\MeadHighSchool.dll
+M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\bin\Debug\netcoreapp2.0\MeadHighSchool.pdb
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\obj\Debug\netcoreapp2.0\MeadHighSchool.csprojResolveAssemblyReference.cache
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\obj\Debug\netcoreapp2.0\MeadHighSchool.csproj.CoreCompileInputs.cache
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\obj\Debug\netcoreapp2.0\MeadHighSchool.AssemblyInfoInputs.cache
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\obj\Debug\netcoreapp2.0\MeadHighSchool.AssemblyInfo.cs
-M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\bin\Debug\netcoreapp2.0\MeadHighSchool.pdb
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\obj\Debug\netcoreapp2.0\MeadHighSchool.dll
 M:\OneDrive\Documents\Projects\Lab13-Entity-Framework\MeadHighSchool\obj\Debug\netcoreapp2.0\MeadHighSchool.pdb
