@@ -28,6 +28,7 @@ namespace MeadHighSchool.Controllers
         public IActionResult Enroll(Student student)
         {
             _context.Students.Add(student);
+            _context.SaveChanges();
             return RedirectToAction("Index","Home");
         }
     }
