@@ -1,0 +1,21 @@
+<h2>Please fill out the necissary form to enroll.</h2>
+<link href="~/Style.css" rel="stylesheet" />
+<form method="post">
+    <label for="firstname">First Name</label>
+    <input maxlength="15" name="firstname" />
+    <label for="lastname">Last Name</label>
+    <input maxlength="15" name="lastname" />
+    <label for="phone">Contact Phone Number</label>
+    <input maxlength="15" name="phone" />
+    <br />
+    <label for="homeclass">Home Class</label>
+    <ul>
+        <li><input type="radio" name="homeclass" value="Mathmatics" checked> Mathmatics</li>
+        <li><input type="radio" name="homeclass" value="Literature"> Literature</li>
+        <li><input type="radio" name="homeclass" value="Shop"> Shop</li>
+        <li><input type="radio" name="homeclass" value="Science"> Science</li>
+        <li><input type="radio" name="homeclass" value="History"> History</li>
+        <li><input type="radio" name="homeclass" value="Physical Education"> Physical Education</li>
+    </ul>
+    <button type="submit">Enroll!</button>
+</form>
