@@ -5246,7 +5246,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.3",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.1",
-          "Microsoft.NETCore.App": "2.0.0"
+          "Microsoft.NETCore.App": "2.0.0",
+          "xunit": "2.3.1"
         },
         "compile": {
           "bin/placeholder/EntityFramework.dll": {}
@@ -13712,7 +13713,6 @@
             "version": "[15.5.0, )"
           },
           "Microsoft.NETCore.App": {
-            "suppressParent": "All",
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
