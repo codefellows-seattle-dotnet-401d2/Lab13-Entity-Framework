@@ -1,0 +1,82 @@
+﻿* {
+   font-family: Arial;
+}
+
+
+body {
+    background-color: black;
+    margin: 0 auto;
+    background-image: url("https://images8.alphacoders.com/760/760721.png");
+    background-size: cover;
+}
+
+header {
+    background-color: #871616;
+    opacity: 0.9;
+    height: 10%;
+    width: 100%;
+    margin-top: 0;
+    color: floralwhite;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 1%;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: floralwhite;
+}
+
+thead {
+    color: floralwhite;
+    font-weight: bold;
+}
+
+
+
+
+td {
+    font-weight: bold;
+    border: 1px solid black;
+}
+
+h3 {
+    margin-top: 5%;
+    margin-left: 4%;
+    color: floralwhite;
+}
+
+label {
+    color: floralwhite;
+    font-weight: bold;
+   
+}
+
+li {
+    list-style-type: none;
+    margin-left: 5%;
+  
+}
+
+#house {
+    margin-left: 8%;
+}
+
+
+table {
+    background-color: black;
+    margin-left: 5%;
+    width: 40%;
+}
+
+tr {
+    font-weight: bold;
+    color: floralwhite;
+}
+
+th {
+    text-align: left;
+}
