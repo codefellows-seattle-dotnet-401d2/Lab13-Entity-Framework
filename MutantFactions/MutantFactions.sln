@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutantFactions", "MutantFactions\MutantFactions.csproj", "{F3E17834-0C86-4938-8275-4EE319B8826D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestWebApp", "XUnitTestWebApp\XUnitTestWebApp.csproj", "{0FBD33FC-B4EE-46E5-8D73-E72C2FEB53FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3E17834-0C86-4938-8275-4EE319B8826D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3E17834-0C86-4938-8275-4EE319B8826D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3E17834-0C86-4938-8275-4EE319B8826D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3E17834-0C86-4938-8275-4EE319B8826D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FBD33FC-B4EE-46E5-8D73-E72C2FEB53FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FBD33FC-B4EE-46E5-8D73-E72C2FEB53FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FBD33FC-B4EE-46E5-8D73-E72C2FEB53FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FBD33FC-B4EE-46E5-8D73-E72C2FEB53FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CDBD7733-8C17-4B53-8D76-889C3779AE5A}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\bin\Any CPU\Release\netcoreapp2.0\MutantFactions.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\bin\Any CPU\Release\netcoreapp2.0\MutantFactions.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\bin\Any CPU\Release\netcoreapp2.0\MutantFactions.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\bin\Any CPU\Release\netcoreapp2.0\MutantFactions.dll
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\bin\Any CPU\Release\netcoreapp2.0\MutantFactions.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\obj\Any CPU\Release\netcoreapp2.0\MutantFactions.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\obj\Any CPU\Release\netcoreapp2.0\MutantFactions.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\obj\Any CPU\Release\netcoreapp2.0\MutantFactions.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\obj\Any CPU\Release\netcoreapp2.0\MutantFactions.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\obj\Any CPU\Release\netcoreapp2.0\MutantFactions.dll
+C:\Users\pedra\Documents\codefellows\401\Lab13-EntityFramework\MutantFactions\MutantFactions\obj\Any CPU\Release\netcoreapp2.0\MutantFactions.pdb

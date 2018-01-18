@@ -1,0 +1,9 @@
+﻿html {
+    background: url(/Img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+table {
+    background-color: white;
+    padding: 5px;
+}
