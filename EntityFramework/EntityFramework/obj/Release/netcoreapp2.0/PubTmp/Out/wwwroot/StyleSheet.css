@@ -1,0 +1,20 @@
+﻿* {
+   font-family: Arial;
+}
+
+body {
+    background-color: black; 
+      
+}
+
+header {
+    background-color: darkred;
+    height: 15%;
+    width: 100%;
+    color: floralwhite;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 2%;
+}

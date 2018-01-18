@@ -1,0 +1,6 @@
+C:\Users\jeffmartinez\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=EntityFramework
+--content-root=C:\Users\jeffmartinez\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework
+--file=C:\Users\jeffmartinez\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework\Views\Home\Enrollment.cshtml
+--file=C:\Users\jeffmartinez\source\repos\Lab13-Entity-Framework\EntityFramework\EntityFramework\Views\Home\Index.cshtml

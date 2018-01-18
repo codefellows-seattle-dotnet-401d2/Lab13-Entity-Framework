@@ -1,0 +1,41 @@
+﻿@model EntityFramework.Models.Hogwarts
+<link href="~/StyleSheet.css" rel="stylesheet" />
+
+<header>
+    <h1>Welcome to Hogwarts!</h1>
+</header>
+
+<body>
+<h3>Please Enroll</h3>
+
+
+<form method="post">
+    <ul>
+    <li>
+        <label for="FirstName">First Name: </label><br />
+        <textarea rows="4" cols="50" name="FirstName"></textarea>
+    </li>
+
+    <li>
+        <label for="LastName">Last Name: </label><br />
+        <textarea rows="4" cols="50" name="LastName"></textarea>
+    </li>
+
+    <li>
+        <label for="Phone">Phone: </label><br />
+        <textarea rows="4" cols="50" name="Phone"></textarea>
+    </li>
+    </ul>
+
+    <label id="house" for="House">Choose House: </label>
+    <select name="House" width="10">
+        <option value="Hufflepuff">Hufflepuff</option>
+        <option value="Slytherin">Slytherin</option>
+        <option value="Gryffindor">Gryffindor</option>
+    </select>
+
+    <button type="submit">Enroll</button>
+</form>
+
+</body>
+
